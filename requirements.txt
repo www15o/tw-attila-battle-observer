@@ -1,0 +1,3 @@
+# 反汇编 / 交叉引用工具（tools/a3_*.py、tools/probes/*）依赖；其余只用 Python 标准库。
+# 本仓库不含任何游戏文件；工具需要一个本机的 empire.retail.dll（用 ATTILA_DLL / ATTILA_DIR 指定，或自动探测 Steam 安装位置）。
+capstone>=5.0

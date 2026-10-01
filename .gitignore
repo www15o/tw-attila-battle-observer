@@ -1,0 +1,37 @@
+# 二进制 / 游戏资产（版权 + 体积，一律不入库）
+*.dll
+*.pack
+*.pak
+*.pak1
+*.pak2
+*.pak3
+*.exe
+*.bin
+*.pyz
+*.pdb
+*.zip
+*.7z
+*.png
+*.jpg
+*.tga
+*.wav
+
+# 游戏提取物 / 工程
+extract/
+re/
+ghidra_project*/
+*.gbf
+*.rep
+
+# 运行时产物 / 过程记录
+__pycache__/
+*.pyc
+captures/
+logs/
+*.log
+decompile_*
+backup*
+
+# 编辑器
+.vscode/
+.idea/

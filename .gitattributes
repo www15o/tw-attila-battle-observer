@@ -1,0 +1,6 @@
+# 统一 LF（仓库内文本文件），避免 Windows 下 CRLF 反复抖动
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ps1 text eol=crlf
